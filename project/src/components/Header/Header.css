@@ -1,0 +1,121 @@
+.header {
+    height: 40vw;
+    margin: 30px auto;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.header .header-contents img {
+    height: 50px;
+}
+
+.header .header-contents {
+    position: absolute;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* align-items:start changed to flex-start */
+    gap: 1.5vw;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s ease-in-out;
+    background-color: transparent;
+}
+
+.header-contents h2 {
+    background-color: transparent;
+    font-size: max(5vw, 22px);
+    color: black;
+    text-transform: uppercase;
+    width: 40%;
+    font-weight: bold; 
+    /* Added bold for emphasis */
+  
+}
+.header-contents h2 img {
+    height: 40px;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.image-head {
+    display: block;
+    position: absolute; /* Changed to absolute for better positioning */
+    right: 0;
+    top: 0;
+    height: 80%;
+    object-fit: cover; /* Ensures image covers the space */
+    width: 50%;
+}
+
+.header-contents p {
+    font-size: 1vw;
+    color: white;
+}
+
+.header-contents button {
+    background-color: #c1121f;
+    color: white;
+    padding: 1vw 2.3vw;
+    border: none;
+    font-weight: 500;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-contents button:hover {
+    background-color: #d1292d; /* Darker shade on hover */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1050px) {
+    .header-contents {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 900px) {
+    .image-head {
+        max-width: 55%;
+    }
+}
+
+@media (max-width: 750px) {
+    .header {
+        margin-bottom: 150px;
+    }
+
+    .header-contents {
+        max-width: 65%;
+    }
+
+    .header-contents p {
+        display: none;
+    }
+
+    .header-contents button {
+        padding: 2vw 4vw;
+    }
+
+    .image-head {
+        display: block;
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .header .header-contents img {
+        height: 40px;
+    }
+}
