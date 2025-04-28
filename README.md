@@ -53,11 +53,13 @@
 ```bash
 git clone https://github.com/Sara-Mediouni/foody.git
 cd foody
+cd backend && npm install
 cd frontend && npm install
-cd ../backend && npm install
+cd admin && npm install
 # Configurez votre fichier .env avec vos variables MongoDB et Stripe
-npm run dev (backend)
-npm start (frontend)
+nodemon server (backend)
+npm run dev (frontend)
+npm run dev (admin)
 ```
 
 ## 📋 Fonctionnalités principales
