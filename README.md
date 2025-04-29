@@ -51,7 +51,7 @@
 ## 🚀 **Lancer localement**
 
 ```bash
-git clone https://github.com/Sara-Mediouni/foody.git
+git clone https://github.com/Sara-Mediouni/Foody.git
 cd foody
 cd backend && npm install
 cd project && npm install
