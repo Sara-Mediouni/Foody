@@ -63,13 +63,13 @@ npm run dev (admin)
 ```
 
 ## 📋 Fonctionnalités principales
--📅 Réservation de tables en ligne
+-🛒 Commande de fast food en ligne.
 
--💳 Paiement sécurisé lors de la réservation
+-💳 Paiement en ligne sécurisé.
 
--👤 Gestion des comptes utilisateurs
+-🧾 Suivi des commandes.
 
--📋 Historique des réservations disponibles pour chaque utilisateur
+-📦 Statut de livraison.
 
 
 ## ⚠️ Remarque
